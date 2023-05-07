@@ -27,43 +27,42 @@
 </div>
 
 <div id="content">
-<h2>Contact</h2>
-<label for="name">Name:</label>
-<input type="text" id="name" name="name" required>
+<h2>Artifacts</h2>
 
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" required>
-
-<label for="message">Add a Comment</label>
-<textarea id="message" name="message" required></textarea>
-
-
-<div id="my_form">
-
-    <button id="nextStep">Submit</button>
+<p>
+  This page showcases my work along with image and links to the pages.
+    <br>
+    </p>
+<div class="gallery">
+    <a target="_blank" href="https://darushanov02.github.io/Resume/">
+      <img src="resumeimage.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">
+        <p> Resume: A project that uses HTML and no CSS <a target="_blank" href="https://darushanov02.github.io/Resume/">Check it out</a></p>
+    </div>
   </div>
   
-  <div id="thank_you" style="display: none;">
-    <p>Thanks for filling up the form!</p>
-    <button type="submit">Close</button>
+  <div class="gallery">
+    <a target="_blank" href="https://darushanov02.github.io/tableproject/">
+      <img src="tableproject.png" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><p> Meal Planning: This project uses varioous headers, tables and images <a target="_blank" href="https://darushanov02.github.io/tableproject/">Check it out</a></p></div>
+    
   </div>
   
-  <script>
-    var nextStep = document.querySelector('#nextStep');
+  <div class="gallery">
+    <a target="_blank" href="https://darushanov02.github.io/project9/">
+      <img src="projectimage.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><p> Beginner HTML: This page features text in vaious sizes and colors. <a target="_blank" href="https://darushanov02.github.io/project9/">Check it out</a></p></div>
+  </div>
   
-    nextStep.addEventListener('click', function (e) {
-      e.preventDefault();
-      // Hide first view
-      document.getElementById('my_form').style.display = 'none';
-  
-      // Show thank you message element
-      document.getElementById('thank_you').style.display = 'block';
-    });
-  </script>
-
-
-
-<div class="clear"> </div>
+  <div class="gallery">
+    <a target="_blank" href="https://darushanov02.github.io/project10/">
+      <img src="recipeimage.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><p> Recipes: This project uses images and hyperlinks to recipe pages. <a target="_blank" href="https://darushanov02.github.io/project10/">Check it out</a></p></div>
+  </div>
 
 <div id="footer">
 
