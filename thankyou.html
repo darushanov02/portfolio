@@ -30,40 +30,13 @@
 </div>
 
 <div id="content">
-<h2>Contact</h2>
-<label for="name">Name:</label>
-<input type="text" id="name" name="name" required>
 
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" required>
+<body>
+	<header class="site-header" id="header">
+		<h1 class="site-header__title" data-lead-id="site-header-title">THANK YOU!</h1>
+	</header>
 
-<label for="message">Add a Comment</label>
-<textarea id="message" name="message" required></textarea>
-
-
-<div id="my_form">
-
-  <a href="thankyou.html" class="btn btn-primary">Submit</a>
-  </div>
-  
-  <div id="thank_you" style="display: none;">
-    <p>Thanks for filling up the form!</p>
-    <button type="submit">Close</button>
-  </div>
-  
-  <script>
-    <input type="button" onclick="href='thankyou.html';" value="Submit" />
-    var nextStep = document.querySelector('#nextStep');
-  
-    nextStep.addEventListener('click', function (e) {
-      e.preventDefault();
-      // Hide first view
-      document.getElementById('my_form').style.display = 'none';
-  
-      // Show thank you message element
-      document.getElementById('thank_you').style.display = 'block';
-    });
-  </script>
+	
 
 
 
@@ -100,6 +73,5 @@ Design by <a href="http://www.simpletemplates.org">Simple Website Templates</a>
 </div>
 
 </div>
-    </div>
 </body>
 </html>

@@ -3,6 +3,8 @@ font-family: Arial, sans-serif;
 margin: 0;
 padding: 0; 
 background-image: url("background.avif");
+background-size: cover;
+background-repeat: no-repeat;
 color: #3f3f3f;
 font-size: 16px;
 line-height: 24px;
